@@ -400,17 +400,18 @@
                             <div class="col-md-5 pt-3" >
                               <h6>We will confirm your appointment within 2 hours</h6>
                               <h2>Request An Appointment</h2>
-                              <form action="" class="appointment">
+                              <form action="https://formspree.io/f/xrgnbwlv"
+                              method="POST" class="appointment">
                                 <div>
-                                 <input type="text" placeholder="Name">
+                                 <input type="text" placeholder="Name" name="Name" autocomplete="off">
                                 </div>
                                 <div>
-                                  <input type="email" placeholder="Email">
+                                  <input type="email" placeholder="Email" name="Email" autocomplete="off">
                                 </div>
                                 <div>
-                                  <input type="number" name="" id="" placeholder="Phone"></div>
-                                  <span ><input type="date" name="" id="" style="width: 46%;"></span> 
-                                    <select name="" id="" style="width: 40%; height: 37px;">
+                                  <input type="number" name="" id="" placeholder="Phone" name="Phone"></div>
+                                  <span ><input type="date" name="" id="" style="width: 46%;" name="date"></span> 
+                                    <select name="" id="" style="width: 40%; height: 37px;" name="Time">
                                       <option value="">9AM - 11AM</option>
                               <option value="">11AM - 1PM</option>
                               <option value="">1PM -2PM</option>
@@ -419,7 +420,7 @@
                                     <div> <label for="">Department</label>
                                       <br>
                                       
-                                     <select name="" id="" style="width: 88%; height: 37px; ">
+                                     <select name="" id="" style="width: 88%; height: 37px; " name="department">
                                       <option value="">Cardiology</option>
                                       <option value="">Dental</option>
                                       <option value="">General Medicine</option>
